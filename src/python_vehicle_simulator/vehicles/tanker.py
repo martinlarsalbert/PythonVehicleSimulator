@@ -325,3 +325,9 @@ class tanker:
         u_control = np.array([delta], float)
 
         return u_control
+
+    def turning_circle(self, t):
+        delta = np.deg2rad(35)
+        u_control = np.array([delta], float)
+        return u_control
+

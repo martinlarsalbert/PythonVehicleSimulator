@@ -40,4 +40,7 @@ In order to run the main program main.py the following modules must be installed
 2. In the root of the repository:
 ```pip install -e .```
 
+## Testing:
+```pytest```
+
 
